@@ -10,7 +10,9 @@ app.use(cors())
 app.use(express.json())
 
 
-
+app.get('/',(req,res)=>{
+	console.log('get Request')
+})
 
 
 app.post('/',(req,res)=>{
