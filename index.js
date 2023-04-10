@@ -20,7 +20,7 @@ app.post('/',(req,res)=>{
 	console.log(req.params,"params")
 	console.log(req.query,"query")
 	console.log(res.body, "body")  // Undefine
-	console.log(res, "all") //
+	console.log(res, "all") // giving all the data
 })
 
 
