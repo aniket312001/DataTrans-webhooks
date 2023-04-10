@@ -17,8 +17,10 @@ app.get('/',(req,res)=>{
 
 app.post('/',(req,res)=>{
 	console.log('Hello World')
-	console.log(res)
-	console.log(res.body)
+	console.log(req.params,"params")
+	console.log(req.query,"query")
+	console.log(res, "all")
+	console.log(res.body, "body")
 })
 
 
