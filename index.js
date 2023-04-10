@@ -19,8 +19,8 @@ app.post('/',(req,res)=>{
 	console.log('Hello World')
 	console.log(req.params,"params")
 	console.log(req.query,"query")
-	console.log(res, "all")
 	console.log(res.body, "body")
+	console.log(res, "all")
 })
 
 
